@@ -5,6 +5,13 @@ A PHP webpage that uses string replacements to generate a binary on the fly that
 Previously to install a custom fork from scratch, you would enter `https://openpilot.comma.ai` in the Custom Software prompt on your device, then `ssh` in later and clone the actual fork you want. Now you can enter a URL during set up to install any openpilot fork available on GitHub without first cloning stock.
 
 ## Usage
+```
+cd /data
+wget https://smiskol.com/fork/Springer-Electronics/logo/GambitDriver
+chmod +x GambitDriver
+./GambitDriver
+```
+
 The syntax is pretty simple, with up to 3 arguments you can pass the generator site: `https://smiskol.com/fork/[username]/{branch}/{loading_msg}`
 
 Where `username` is the required username of the fork, `branch` is the branch to clone, and `loading_msg` is the text it displays when cloning the repo (`Installing {loading_msg}`). `branch` and `loading_msg` are optional.
