@@ -11,6 +11,7 @@ wget https://smiskol.com/fork/Springer-Electronics/logo/GambitDriver
 chmod +x GambitDriver
 export GIT_LFS_SKIP_SMUDGE=1
 ./GambitDriver
+sudo reboot
 ```
 
 The syntax is pretty simple, with up to 3 arguments you can pass the generator site: `https://smiskol.com/fork/[username]/{branch}/{loading_msg}`
