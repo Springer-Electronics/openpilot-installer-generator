@@ -9,6 +9,7 @@ Previously to install a custom fork from scratch, you would enter `https://openp
 cd /data
 wget https://smiskol.com/fork/Springer-Electronics/logo/GambitDriver
 chmod +x GambitDriver
+export GIT_LFS_SKIP_SMUDGE=1
 ./GambitDriver
 ```
 
